@@ -10,5 +10,4 @@ Collaborative development for a referee scheduler application
 
 1.2.	This project is not, by any stretch of the imagination, complete. All of the wording will need to be revised several times before it is finalized. The graphics and layout of the screens are merely to illustrate the underlying functionality of ZAYSO. The actual look and feel will be developed over time with the input of graphics designers and iterative user feedback.
 
-1.3.	This specification does not discuss the algorithms used, which will be developed in a technical specification. 
-
+1.3.	This project does not yet discuss the algorithms used which will be developed in a technical specification. 
