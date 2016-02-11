@@ -112,19 +112,19 @@
 
     1.  Each user is able to maintain profile data including:
 
-        1.  Full Name
+        *  Full Name
 
-        2.  First Name
+        *  First Name
 
-        3.  Last Name
+        *  Last Name
 
-        4.  Nick Name
+        *  Nick Name
 
-        5.  Email address
+        *  Email address
 
-        6.  Best phone number
+        *  Best phone number
 
-        7.  AYSO Volunteer ID (8-digits)
+        *  AYSO Volunteer ID (8-digits)
 
     2.  Each user will be available to provide availability
         for assignments. This will be done by blocking dates,
