@@ -12,9 +12,7 @@
 
 2.  Technology
     ==========
-    1.  Platforms
-        1.  System will be compatible with desktops, laptops, tablets,
-            mobile devices
+    1.  The application will be compatible with desktops, laptops, tablets, and mobile devices.
 
     2.  Compatibile operating systems
         1.  System will operate on:
