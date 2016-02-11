@@ -179,6 +179,6 @@
 
     10. Each official will be able to complete and export to Excel a historical search of their assignments by date.
 
-8.  ##Use Cases
+8.  Use Cases
     =========
     To be supplied upon request
