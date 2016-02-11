@@ -90,9 +90,7 @@
 
     5.  Based on User provided AYSO Volunteer ID (8-digits), the system
         will add to the user profile view:
-
         * AYSO Section-Area-Region
-
         * Referee Badge Level (None, U-8, Basic, Intermediate, Advanced, National)
 
 2.  User Profile
@@ -129,19 +127,12 @@
 3.  User Functions
     ==============
     1.  Each user is able to maintain profile data including:
-
         *  Full Name
-
         *  First Name
-
         *  Last Name
-
         *  Nick Name
-
         *  Email address
-
         *  Best phone number
-
         *  AYSO Volunteer ID (8-digits)
 
     2.  Each user will be available to provide availability
@@ -167,10 +158,8 @@
 
     10. Historical search by account, date: export to Excel
 
-
 4.  Use Cases
     =========
-
     1.  UC 1: Account creation, pw reminders: new and returning users
 
         1.  The home page presents two options:
