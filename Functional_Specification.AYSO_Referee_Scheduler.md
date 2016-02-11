@@ -2,13 +2,13 @@
     ========
     1.  The Referee Scheduler is a web application that supports Volunteer Registration, Schedule Management, Referee Assignments, Match Reporting and Team Management for soccer competitions, i.e. a typical season, tournaments or other such events.
     
-    1.  The purpose of this specification is to simply discuss the functionality users see when they interact with the web application called the AYSO Referee Scheduler.
+    2.  The purpose of this specification is to simply discuss the functionality users see when they interact with the web application called the AYSO Referee Scheduler.
 
-    2.  This specification is not, by any stretch of the imagination, complete. All of the wording will need to be         revised several times before it is finalized. The graphics and layout of the screens if included are merely to illustrate the underlying functionality. The actual look and feel will be developed over time with the input of graphics designers and iterative user feedback.
+    3.  This specification is not, by any stretch of the imagination, complete. All of the wording will need to be         revised several times before it is finalized. The graphics and layout of the screens if included are merely to illustrate the underlying functionality. The actual look and feel will be developed over time with the input of graphics designers and iterative user feedback.
 
-    3.  This specification does not discuss the algorithms used, which will be developed in a technical specification.
+    4.  This specification does not discuss the algorithms used, which will be developed in a technical specification.
 
-    4.  The Referee Scheduler is functionality available to all registered AYSO volunteers certified as Referees or acting as Referee Administrators or their designees.
+    5.  The Referee Scheduler is functionality available to all registered AYSO volunteers certified as Referees or acting as Referee Administrators or their designees.
 
 2.  Technology
     ==========
@@ -45,7 +45,7 @@
   | User Profile Mgmt          | X           | X      |            |           |         | X         |
   | Match Reporting            | X           | X      |            |           | X       | X         |
 
-1.  Navigation ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
+3.  Navigation ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
     ==========
     1. The application will have simple menus to navigate to the views.  The menus are dynamic depending on the role of the user. 
     
@@ -59,10 +59,10 @@
     4. The menus provide navigation to any user with admin privilege:
         * Admin ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
     
-    5. The menus provide naviabtion to any registered user:
+    5. The menus provide navigation to any registered user:
         * My Account ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.myaccount.png))
 
-3.  System Functions
+4.  System Functions
     ================
     1.  The application will have read connectivity with volunteer registration records and training records to access current Safe Haven, Concussion Training (CDC), Membership Year(MY) data for each official.
 
@@ -85,7 +85,7 @@
         * Referee Badge Level (None, U-8, Basic, Intermediate, Advanced, National)
         NOTE: this data is not editable in this application but will contain a link to the source system, i.e., eAYSO
 
-2.  Admin Functions
+5.  Admin Functions
     ===============
     1. The Admin role will have the following functions
         2.  Communications Functions
@@ -105,24 +105,34 @@
             3. View all officials with out-of-date credentials in a matrix showing Account Information, Contact Information, AYSO Certfications, Competition availability (sample on request).
             4. Export all officials with out-of-date credentials (to Excel) (sample on request).   The export filename to contain "ineligible_officials" and date and time stamp.
             5. View Staff Roles ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_staff_roles.png))
+        
         3.  Referee Assignment Functions
             1.  View all referee assignments ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_referee_assignments.png))
-            2.  Export Referee assignments to Excel ([sample](\#)).   The export filename to contain date and time stamp.
+            2.  Referee assignment view to be filterable by:
+                1.  Games with issues.  An "issue" is open, pending, requested, turnback slots.
+                2.  Games with open slots
+                3.  Games with pending slots
+                4.  Games wtih published slots
+                5.  Games with requested slots
+                6.  Games with turnback slots
+            2.  Export Referee assignments to Excel ([sample](\#)).   The export to be selectable by program.  The export filename to contain "assignments" and date and time stamp.
             3.  Import Referee assignments from Excel (using the export as the defined template for import) ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.import_referee_assignments.png))
+        
         4.  Schedule Management Functions
             1.  View game schedules ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_game_schedule.png)) filterable by date, programs, and division. Each filtered view to be exportable to Excel or as CSV text.
             2.  Export entire game schedule by program to Excel
             3.  View team schedules ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_game_schedule.png)) filterable by date, programs, and division. Each filtered view to be exportable to Excel or as CSV text.
             4.  Import game schedule
-        5.  Teamm Management Functions
+        
+        5.  Team Management Functions
+            1.  View Teams ([sample]      
+        
         6.  Match Reporting Functions
     
 
-3.  Print account roster with contact info by competition 
+6.  Print account roster with contact info by competition 
     
-    3.  Export schedule template for import
-    
-    4.  Import and maintain fields by site and sub-site
+    1.  Import and maintain fields by site and sub-site
     
     5.  Import & maintain match schedules from Excel or comma-separated variables (CSV): Date, time, competition, site, field, division, home team, home coach, away team, away coach
     
