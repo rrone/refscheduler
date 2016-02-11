@@ -9,6 +9,17 @@
     4.  This specification does not discuss the algorithms used, which will be developed in a technical specification.
 
     5.  The Referee Scheduler is functionality available to all registered AYSO volunteers certified as Referees or acting as Referee Administrators or their designees.
+    
+    6.  The workflow of assigning matches is as follows:
+        1.  Competition schedule is loaded into the application
+        2.  Sites and fields are loaded into the application
+        3.  Referees provide and maintain availability for the duration of the competition
+        4.  The Assignor publishes assignments for scheduled matches
+        5.  Referees receive notification of pending assignments and accept or decline the assignments.  NOTE: Once accepted, the Referee is obligated to keep the assignment until released by the Assignor.
+        6.  The Assignor is notified of declined assignments for reassigning
+        7.  Referees may request particular assignments.  The Assignor must approve such requests and publish the assignment for the Referee to accept.  NOTE: the Referee may, before the assignor approves the request, rescind the request by returning to the game and selecting "Remove Me From Assignment"
+        8.  Referees may request to turnback assignments for reassignment.  NOTE: the Referee is obligated to keep the assignment until released by the Assignor.
+        9.  On completion of the match, the match results are recorded by the Referee or a designated Scorer.
 
 2.  Technology
     ==========
