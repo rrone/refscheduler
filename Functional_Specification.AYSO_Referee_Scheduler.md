@@ -60,7 +60,7 @@
     5. The menus provide navigation to any registered user:
         * My Account ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.myaccount.png))
 
-4.  System Functions
+4.  Application Functions
     ================
     1.  The application will have read connectivity with volunteer registration records and training records to access current Safe Haven, Concussion Training (CDC), Membership Year(MY) data for each official.
 
