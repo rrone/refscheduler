@@ -1,6 +1,5 @@
 1.  Overview
     ========
-
     1.  The purpose of this specification is to simply discuss the
         functionality users see when they interact with the web
         application called the AYSO Referee Scheduler.
@@ -22,7 +21,6 @@
 
 2.  Technology
     ==========
-
     1.  Platforms
 
         1.  System will be compatible with desktops, laptops, tablets,
@@ -46,7 +44,6 @@
 
 1.  Security Model
     ==============
-
     1.  The system provides multi-level access controls for the
         following roles: SuperAdmin, Admin, Scheduler, Scorer, Assignor,
         Referee
@@ -64,10 +61,18 @@
 1.  Navigation ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
     ==========
     1. The application will have simple menus to navigate to the views.  The menus are dynamic depending on the role of the user.  
+    2. The menus provide navigation to the following functions to anyone accessing the application:
+        * Schedules ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.schedules.png))
+        * Results ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.results.png))
+    3. The menus provide navigation to any registered official:
+        * Referee Schedule ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.referee_schedules.png))
+    4. The menus provide navigation to any user with admin privilege:
+        * Admin ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
+    5. The menus provide naviabtion to any registered user:
+        * My Account ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.myaccount.png))
 
 3.  System Functions
     ================
-
     1.  The system will verify and enforce eligibility by current Safe
         Haven, CDC, MY for all Referee accounts. Accounts will be given
         30 day notice of expiring qualifications by email. Accounts
@@ -86,14 +91,16 @@
     5.  Based on User provided AYSO Volunteer ID (8-digits), the system
         will add to the user profile view:
 
-        1.  AYSO Section-Area-Region
+        * AYSO Section-Area-Region
 
-        2.  Referee Badge Level (None, U-8, Basic Referee, Intermediate
-            Referee, Advanced Referee, National Referee)
+        * Referee Badge Level (None, U-8, Basic, Intermediate, Advanced, National)
+
+2.  User Profile
+    ============
+    
 
 2.  Admin Functions
     ===============
-
     1.  The Admin role will be able to send broadcast email to all
         referees by competition, all accounts showing availability, all
         accounts
@@ -107,10 +114,20 @@
     5.  Import & maintain match schedules from Excel or comma-separated
         variables (CSV): Date, time, competition, site, field, division,
         home team, home coach, away team, away coach
+    
+    6. Schedule views:
+        1.  By accepted
+        2.  By declined
+        3.  By assigned
+        4.  By unassigned
+        5.  By verified
+        6.  By unverified
+        7.  Assignments by name, grade, mobile number
+        8.  Sortable by date & time, site, field, division, referee last
+            name, AR1 last name, AR2 last name
 
 3.  User Functions
     ==============
-
     1.  Each user is able to maintain profile data including:
 
         *  Full Name
@@ -150,20 +167,6 @@
 
     10. Historical search by account, date: export to Excel
 
-    11. Schedule views:
-
-        1.  By accepted
-
-        2.  By declined
-
-        3.  By assigned
-
-        4.  By unassigned
-
-        5.  Assignments by name, grade, mobile number
-
-        6.  Sortable by date & time, site, field, division, referee last
-            name, AR1 last name, AR2 last name
 
 4.  Use Cases
     =========
