@@ -1,5 +1,7 @@
 1.  Overview
     ========
+    1.  The Referee Scheduler is a web application that supports Volunteer Registration, Schedule Management, Referee Assignments, Match Reporting and Team Management for soccer competitions, i.e. a typical season, tournaments or other such events.
+    
     1.  The purpose of this specification is to simply discuss the
         functionality users see when they interact with the web
         application called the AYSO Referee Scheduler.
@@ -29,14 +31,12 @@
     2.  Compatibility
 
         1.  System will operate on:
-
             1.  iOS version 7 and higher
             2.  Mac OS version 10 and higher
             3.  Windows 7 and higher
             4.  Android version 4 and higher
 
         3.  Compatible Browsers:
-    
             1.  Chrome version 43 and higher
             2.  IE version 9 and higher
             3.  Firefox version 38 and higher
@@ -60,14 +60,18 @@
 
 1.  Navigation ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
     ==========
-    1. The application will have simple menus to navigate to the views.  The menus are dynamic depending on the role of the user.  
+    1. The application will have simple menus to navigate to the views.  The menus are dynamic depending on the role of the user. 
+    
     2. The menus provide navigation to the following functions to anyone accessing the application:
         * Schedules ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.schedules.png))
         * Results ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.results.png))
+    
     3. The menus provide navigation to any registered official:
         * Referee Schedule ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.referee_schedules.png))
+    
     4. The menus provide navigation to any user with admin privilege:
         * Admin ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
+    
     5. The menus provide naviabtion to any registered user:
         * My Account ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.myaccount.png))
 
@@ -78,16 +82,16 @@
         30 day notice of expiring qualifications by email. Accounts
         failing eligibility will be flagged as ineligible and will not
         be available for assignments.
-
+    
     2.  The system will provide referees with email or text
         notifications of upcoming assignments 48 hours in advance.
-
+    
     3.  The system will send all Admins notification of unaccepted
         assignments 96 hours in advance of the match.
-
+    
     4.  The system will send all Admins notification of declined
         assignments immediately.
-
+    
     5.  Based on User provided AYSO Volunteer ID (8-digits), the system
         will add to the user profile view:
         * AYSO Section-Area-Region
@@ -98,13 +102,13 @@
     1.  The Admin role will be able to send broadcast email to all
         referees by competition, all accounts showing availability, all
         accounts
-
+    
     2.  Print account roster with contact info by competition 
-
+    
     3.  Export schedule template for import
-
+    
     4.  Import and maintain fields by site and sub-site
-
+    
     5.  Import & maintain match schedules from Excel or comma-separated
         variables (CSV): Date, time, competition, site, field, division,
         home team, home coach, away team, away coach
@@ -130,12 +134,12 @@
         *  Email address
         *  Best phone number
         *  AYSO Volunteer ID (8-digits)
-
+    
     2.  Each user will be available to provide availability
         for assignments. This will be done by blocking dates,
         partial-blocking parts of dates, clear by date or date range,
         time range, and providing maximum travel distance (in miles)
-
+    
     3.  User will be able to block assignments (i.e., won’t
         take assignments) by site or other referees
 
@@ -159,7 +163,6 @@
     1.  UC 1: Account creation, pw reminders: new and returning users
 
         1.  The home page presents two options:
-
             1.  A login with username and password for returning users.
                 There is a link to retrieve a lost or
                 forgotten password.
