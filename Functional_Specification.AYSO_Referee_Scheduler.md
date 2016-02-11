@@ -61,7 +61,7 @@
   | User Profile Mgmt          | X           | X      |            |           |         | X         |
   | Match Reporting            | X           | X      |            |           | X       | X         |
 
-1.  Navigation ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.myaccount.png))
+1.  Navigation ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
     ==========
     1. The application will have simple menus to navigate to the views.  The menus are dynamic depending on the role of the user.  
 
