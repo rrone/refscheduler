@@ -20,6 +20,7 @@
         7.  Referees may request particular assignments.  The Assignor must approve such requests and publish the assignment for the Referee to accept.  NOTE: the Referee may, before the assignor approves the request, rescind the request by returning to the game and selecting "Remove Me From Assignment"
         8.  Referees may request to turnback assignments for reassignment.  NOTE: the Referee is obligated to keep the assignment until the Assignor reassigns the match.
         9.  On completion of the match, the match results are recorded by the Referee or a designated Scorer.
+        10. The application incorporates the match results and published updated results
 
 2.  Technology
     ==========
@@ -34,7 +35,7 @@
 
         3.  Compatible Browsers:
             1.  Chrome version 43 and higher
-            2.  IE version 9 and higher
+            2.  Internet Explorer version 9 and higher
             3.  Firefox version 38 and higher
             4.  Safari version 7 and higher
 
@@ -114,6 +115,7 @@
             3. View all officials with out-of-date credentials in a matrix showing Account Information, Contact Information, AYSO Certfications, Competition availability (sample on request).
             4. Export all officials with out-of-date credentials (to Excel) (sample on request).   The export filename to contain "ineligible_officials" and date and time stamp.
             5. View Staff Roles ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_staff_roles.png))
+            6.  Print simplified roster of officials with contact info (name, email, phone number) by competition sorted by last name.
         
         3.  Referee Assignment Functions
             1.  View all referee assignments ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_referee_assignments.png))
@@ -129,32 +131,24 @@
         
         4.  Schedule Management Functions
             1.  View game schedules ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_game_schedule.png)) filterable by date, programs, and division. Each filtered view to be exportable to Excel or as CSV text.
-            2.  Export entire game schedule by program to Excel
+            2.  Export entire game schedule by program to Excel.  This export is the template for all imports.
             3.  View team schedules ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.view_game_schedule.png)) filterable by date, programs, and division. Each filtered view to be exportable to Excel or as CSV text.
-            4.  Import game schedule
+            4.  Import & maintain match schedules from Excel or comma-separated variables (CSV): Date, time, competition, site, field, division, home team, home coach, away team, away coach.  Import template available by the Export function. ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.import_game_schedule.png))
         
         5.  Team Management Functions
-            1.  View Teams ([sample]      
+            1.  View Teams
+            2.  Export Teams to Excel (sample on request). The export filename to contain "teams" and date and time stamp.
+            3.  Import and update teams ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.import_update_teams.png))
         
         6.  Match Reporting Functions
-    
+            1.  Enter match results ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.enter_match_results.png))
+            2.  Export Pool Play Standings filterable by program to formatted Excel ([sample](https://github.com/rrone/refscheduler/blob/master/exports/ResultsPoolPlay20160211-0958.xlsx)). The export filename to contain "ResultsPoolPlay" and date and time stamp.
+            3.  Export Playoff or Medal Round Standings filterable by program to formatted Excel ([sample](https://github.com/rrone/refscheduler/blob/master/exports/ResultsPlayoffs20160211-1000.xlsx)). The export filename to contain "ResultsPlayoffs" and date and time stamp.
+            4.  Export Sportsmanship Standings filterable by program to formatted Excel ([sample](https://github.com/rrone/refscheduler/blob/master/exports/ResultsSportsmanship20160211-1004.xlsx)). The export filename to contain "ResultsSportsmanship" and date and time stamp.
 
-6.  Print account roster with contact info by competition 
-    
-    1.  Import and maintain fields by site and sub-site
-    
-    5.  Import & maintain match schedules from Excel or comma-separated variables (CSV): Date, time, competition, site, field, division, home team, home coach, away team, away coach
-    
-    6. Schedule views:
-        1.  By accepted
-        2.  By declined
-        3.  By assigned pending acceptance
-        4.  By unassigned
-        5.  By verified 
-        6.  By unverified
-        7.  Assignments by name, grade, mobile number
-        8.  Sortable by date & time, site, field, division, referee last
-            name, AR1 last name, AR2 last name
+        7.  Import and maintain fields by site and sub-site
+        
+        8.  Import and maintain divisions by program
 
 3.  User Functions
     ==============
@@ -192,13 +186,4 @@
 
 4.  Use Cases
     =========
-    1.  UC 1: Account creation, pw reminders: new and returning users
-
-        1.  The home page presents two options:
-            1.  A login with username and password for returning users.
-                There is a link to retrieve a lost or
-                forgotten password.
-
-            2.  A prompt to create a new account for new users.
-
-    2.  UC 2: Match import and update
+    To be supplied upon request
