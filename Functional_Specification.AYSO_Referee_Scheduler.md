@@ -93,10 +93,6 @@
         * AYSO Section-Area-Region
         * Referee Badge Level (None, U-8, Basic, Intermediate, Advanced, National)
 
-2.  User Profile
-    ============
-    
-
 2.  Admin Functions
     ===============
     1.  The Admin role will be able to send broadcast email to all
