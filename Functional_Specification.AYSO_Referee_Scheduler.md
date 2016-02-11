@@ -28,7 +28,7 @@
         1.  System will be compatible with desktops, laptops, tablets,
             mobile devices
 
-    2.  Supported Operating systems
+    2.  Compatibility
 
         1.  System will operate on:
 
@@ -37,15 +37,12 @@
             3.  Windows 7 and higher
             4.  Android version 4 and higher
 
-    3.  Compatible Browsers:
-
-        1.  Chrome version 43 and higher
-
-        2.  IE version 9 and higher
-
-        3.  Firefox version 38 and higher
-
-        4.  Safari version 7 and higher
+        3.  Compatible Browsers:
+    
+            1.  Chrome version 43 and higher
+            2.  IE version 9 and higher
+            3.  Firefox version 38 and higher
+            4.  Safari version 7 and higher
 
 1.  Security Model
     ==============
@@ -54,17 +51,21 @@
         following roles: SuperAdmin, Admin, Scheduler, Scorer, Assignor,
         Referee
 
-  Functions                  | SuperAdmin  | Admin  | Scheduler  | Assignor  | Scorer  | Referee
-  --------------------------- ------------ ------- ----------- ---------- -------- ---------
-  Database Admin             | X                                                    
-  Profile Data Entry         | X           | X                                       
-  Schedule Data Entry        | X           | X      | X                               
-  Assignments                | X           |        |            | X                   
-  Views (depending on Role)  | X           | X      | X          | X         | X       | X
-  User Profile Mgmt          | X           | X      |            |           |         | X
-  Match Reporting            | X           | X      |            |           | X       | X
+  | Functions                  | SuperAdmin  | Admin  | Scheduler  | Assignor  | Scorer  | Referee   |
+  | -------------------------- | ----------- | ------ | ---------- | --------- | ------- | --------- |
+  | Database Admin             | X           |        |            |           |         |           |
+  | Profile Data Entry         | X           | X      |            |           |         |           |
+  | Schedule Data Entry        | X           | X      | X          |           |         |           |
+  | Assignments                | X           |        |            | X         |         |           |
+  | Views (depending on Role)  | X           | X      | X          | X         | X       | X         |
+  | User Profile Mgmt          | X           | X      |            |           |         | X         |
+  | Match Reporting            | X           | X      |            |           | X       | X         |
 
-1.  System Functions
+1.  Navigation ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png))
+    ==========
+    1. The application will have simple menus to navigate to the views.  The menus are dynamic depending on the role of the user.  
+
+3.  System Functions
     ================
 
     1.  The system will verify and enforce eligibility by current Safe
@@ -112,19 +113,19 @@
 
     1.  Each user is able to maintain profile data including:
 
-        1.  Full Name
+        *  Full Name
 
-        2.  First Name
+        *  First Name
 
-        3.  Last Name
+        *  Last Name
 
-        4.  Nick Name
+        *  Nick Name
 
-        5.  Email address
+        *  Email address
 
-        6.  Best phone number
+        *  Best phone number
 
-        7.  AYSO Volunteer ID (8-digits)
+        *  AYSO Volunteer ID (8-digits)
 
     2.  Each user will be available to provide availability
         for assignments. This will be done by blocking dates,
