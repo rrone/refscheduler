@@ -18,7 +18,7 @@
         5.  Referees receive notification of pending assignments and accept or decline the assignments.  NOTE: Once accepted, the Referee is obligated to keep the assignment until released by the Assignor.
         6.  The Assignor is notified of declined assignments for reassigning
         7.  Referees may request particular assignments.  The Assignor must approve such requests and publish the assignment for the Referee to accept.  NOTE: the Referee may, before the assignor approves the request, rescind the request by returning to the game and selecting "Remove Me From Assignment"
-        8.  Referees may request to turnback assignments for reassignment.  NOTE: the Referee is obligated to keep the assignment until released by the Assignor.
+        8.  Referees may request to turnback assignments for reassignment.  NOTE: the Referee is obligated to keep the assignment until the Assignor reassigns the match.
         9.  On completion of the match, the match results are recorded by the Referee or a designated Scorer.
 
 2.  Technology
