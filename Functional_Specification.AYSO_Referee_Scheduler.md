@@ -1,4 +1,4 @@
-##  Overview
+1.  Overview
     ========
     1.  The Referee Scheduler is a web application that supports Volunteer Registration, Schedule Management, Referee Assignments, Match Reporting and Team Management for soccer competitions, i.e. a typical season, tournaments or other such events.
     
@@ -22,7 +22,7 @@
         9.  On completion of the match, the match results are recorded by the Referee or a designated Scorer.
         10. The application incorporates the match results and published updated results
 
-##  Technology
+2.  Technology
     ==========
     1.  The application will be compatible with desktops, laptops, tablets, and mobile devices.
 
@@ -39,7 +39,7 @@
             3.  Firefox version 38 and higher
             4.  Safari version 7 and higher
 
-##  Security Model
+3.  Security Model
     ==============
     1.  The system provides multi-level access controls for the
         following roles: SuperAdmin, Admin, Scheduler, Scorer, Assignor,
@@ -55,7 +55,7 @@
   | User Profile Mgmt          | X           | X      |            |           |         | X         |
   | Match Reporting            | X           | X      |            |           | X       | X         |
 
-##  Navigation 
+4.  Navigation 
     ==========
     1. The application will have simple menus to navigate to the views ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png)).  The menus are dynamic depending on the role of the user. 
     
@@ -72,7 +72,7 @@
     5. The menus provide navigation to any registered user:
         * My Account ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.myaccount.png))
 
-##  Application Functions
+5.  Application Functions
     ================
     1.  The application will have read connectivity with volunteer registration records and training records to access current Safe Haven, Concussion Training (CDC), Membership Year(MY) data for each official.
 
@@ -95,7 +95,7 @@
         * Referee Badge Level (None, U-8, Basic, Intermediate, Advanced, National)
         NOTE: this data is not editable in this application but will contain a link to the source system, i.e., eAYSO
 
-##  Admin Functions
+6.  Admin Functions
     ===============
     1. The Admin role will have the following functions
         2.  Communications Functions
@@ -150,7 +150,7 @@
         
         8.  Import and maintain divisions by program
 
-##.  User Functions
+7.  User Functions
     ==============
     1.  Each user will be able to maintain profile data including:
         *  Full Name
@@ -179,6 +179,6 @@
 
     10. Each official will be able to complete and export to Excel a historical search of their assignments by date.
 
-##  Use Cases
+8.  ##Use Cases
     =========
     To be supplied upon request
