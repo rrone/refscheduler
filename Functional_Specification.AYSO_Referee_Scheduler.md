@@ -28,7 +28,7 @@
         1.  System will be compatible with desktops, laptops, tablets,
             mobile devices
 
-    2.  Supported Operating systems
+    2.  Compatibility
 
         1.  System will operate on:
 
@@ -37,15 +37,12 @@
             3.  Windows 7 and higher
             4.  Android version 4 and higher
 
-    3.  Compatible Browsers:
-
-        1.  Chrome version 43 and higher
-
-        2.  IE version 9 and higher
-
-        3.  Firefox version 38 and higher
-
-        4.  Safari version 7 and higher
+        3.  Compatible Browsers:
+    
+            1.  Chrome version 43 and higher
+            2.  IE version 9 and higher
+            3.  Firefox version 38 and higher
+            4.  Safari version 7 and higher
 
 1.  Security Model
     ==============
