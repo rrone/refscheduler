@@ -1,4 +1,4 @@
-1.  Overview
+##  Overview
     ========
     1.  The Referee Scheduler is a web application that supports Volunteer Registration, Schedule Management, Referee Assignments, Match Reporting and Team Management for soccer competitions, i.e. a typical season, tournaments or other such events.
     
@@ -22,7 +22,7 @@
         9.  On completion of the match, the match results are recorded by the Referee or a designated Scorer.
         10. The application incorporates the match results and published updated results
 
-2.  Technology
+##  Technology
     ==========
     1.  The application will be compatible with desktops, laptops, tablets, and mobile devices.
 
@@ -39,7 +39,7 @@
             3.  Firefox version 38 and higher
             4.  Safari version 7 and higher
 
-1.  Security Model
+##  Security Model
     ==============
     1.  The system provides multi-level access controls for the
         following roles: SuperAdmin, Admin, Scheduler, Scorer, Assignor,
@@ -55,7 +55,7 @@
   | User Profile Mgmt          | X           | X      |            |           |         | X         |
   | Match Reporting            | X           | X      |            |           | X       | X         |
 
-3.  Navigation 
+##  Navigation 
     ==========
     1. The application will have simple menus to navigate to the views ([samples](https://github.com/rrone/refscheduler/blob/master/screensnaps/menus.png)).  The menus are dynamic depending on the role of the user. 
     
@@ -72,7 +72,7 @@
     5. The menus provide navigation to any registered user:
         * My Account ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/menu.myaccount.png))
 
-4.  Application Functions
+##  Application Functions
     ================
     1.  The application will have read connectivity with volunteer registration records and training records to access current Safe Haven, Concussion Training (CDC), Membership Year(MY) data for each official.
 
@@ -95,7 +95,7 @@
         * Referee Badge Level (None, U-8, Basic, Intermediate, Advanced, National)
         NOTE: this data is not editable in this application but will contain a link to the source system, i.e., eAYSO
 
-5.  Admin Functions
+##  Admin Functions
     ===============
     1. The Admin role will have the following functions
         2.  Communications Functions
@@ -150,9 +150,9 @@
         
         8.  Import and maintain divisions by program
 
-3.  User Functions
+##.  User Functions
     ==============
-    1.  Each user is able to maintain profile data including:
+    1.  Each user will be able to maintain profile data including:
         *  Full Name
         *  First Name
         *  Last Name
@@ -161,29 +161,24 @@
         *  Best phone number
         *  AYSO Volunteer ID (8-digits)
     
-    2.  Each user will be available to provide availability
-        for assignments. This will be done by blocking dates,
-        partial-blocking parts of dates, clear by date or date range,
-        time range, and providing maximum travel distance (in miles)
+    2.  Each user will be available to provide availability for assignments. This will be done by blocking dates,         partial-blocking parts of dates, clear by date or date range, time range, and providing maximum travel distance (in miles)
     
-    3.  User will be able to block assignments (i.e., won’t
-        take assignments) by site or other referees
+    3.  Each user will be able to block assignments (i.e., won’t take assignments) by site or other referees
 
-    4.  Print Referee schedule by account, date, field, team to PDF or
-        Excel (selectable)
+    4.  Each user will be able to print their Referee schedule by date, field, team to PDF or Excel (selectable)
 
-    5.  Match assignments: assignment, accept, decline, notifications
+    5.  Each user will be able to accept, decline, or request turnback of match assignments 
+    
+    6.  Each user (as Referee) will be able to enter match results reporting ([sample](https://github.com/rrone/refscheduler/blob/master/screensnaps/admin.enter_match_results.png))
 
-    6.  Match results reporting: score, misconduct, incidents
+    7.  Each user (as Referee) will be able to complete and submit a match misconduct report in standard form ([sample](http://ayso1ref.com/lib/misconduct_report-fillin.pdf))
 
-    7.  Match misconduct reporting using standard form
+    8.  Each user will be able to complete and submit a match incident report in standard form ([sample](https://sites.google.com/site/ayso1dreferee/incident_report_form_with_instructions.pdf))
 
-    8.  Match incident reporting using standard form
+    9.  Each official will be able to print out team views (upcoming match assignments with teammates and their contact info)
 
-    9.  Referee team views: upcoming teammates with contact info
+    10. Each official will be able to complete and export to Excel a historical search of their assignments by date.
 
-    10. Historical search by account, date: export to Excel
-
-4.  Use Cases
+##  Use Cases
     =========
     To be supplied upon request
