@@ -54,15 +54,15 @@
         following roles: SuperAdmin, Admin, Scheduler, Scorer, Assignor,
         Referee
 
-  Functions                  | SuperAdmin  | Admin  | Scheduler  | Assignor  | Scorer  | Referee
-  --------------------------- ------------ ------- ----------- ---------- -------- ---------
-  Database Admin             | X                                                    
-  Profile Data Entry         | X           | X                                       
-  Schedule Data Entry        | X           | X      | X                               
-  Assignments                | X           |        |            | X                   
-  Views (depending on Role)  | X           | X      | X          | X         | X       | X
-  User Profile Mgmt          | X           | X      |            |           |         | X
-  Match Reporting            | X           | X      |            |           | X       | X
+  | Functions                  | SuperAdmin  | Admin  | Scheduler  | Assignor  | Scorer  | Referee   |
+  | -------------------------- | ----------- | ------ | ---------- | --------- | ------- | --------- |
+  | Database Admin             | X           |        |            |           |         |           |
+  | Profile Data Entry         | X           | X      |            |           |         |           |
+  | Schedule Data Entry        | X           | X      | X          |           |         |           |
+  | Assignments                | X           |        |            | X         |         |           |
+  | Views (depending on Role)  | X           | X      | X          | X         | X       | X         |
+  | User Profile Mgmt          | X           | X      |            |           |         | X         |
+  | Match Reporting            | X           | X      |            |           | X       | X         |
 
 1.  System Functions
     ================
