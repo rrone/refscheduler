@@ -123,7 +123,7 @@
                 1.  Games with issues.  An "issue" is open, pending, requested, turnback slots.
                 2.  Games with open slots
                 3.  Games with pending slots
-                4.  Games wtih published slots
+                4.  Games with published slots
                 5.  Games with requested slots
                 6.  Games with turnback slots
             2.  Export Referee assignments to Excel ([sample](\#)).   The export to be selectable by program.  The export filename to contain "assignments" and date and time stamp.
